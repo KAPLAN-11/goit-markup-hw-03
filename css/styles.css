@@ -13,6 +13,9 @@ body {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+.img {
+    display: block;
+}
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -55,7 +58,7 @@ body {
     color: #2E2F42;
     cursor: pointer;
     text-decoration: none;
-    padding: 24px;
+    padding: 24px 0;
 }
 .navigation:hover {
     background-color: #2E2F42;
@@ -133,7 +136,7 @@ body {
     padding: 120px 0;
 
 }
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: auto;
@@ -150,7 +153,7 @@ body {
     gap: 24px;
 }
 .abaut-li {
-    width: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .abaut-us-h {
@@ -195,11 +198,13 @@ body {
     border-top-right-radius: 0px;
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .our-team-div {
-    padding: 32px;
-}    
+    padding: 32px 0;
+}
+    
 .name-tag {
     font-weight: 500;
     font-size: 20px;
@@ -218,7 +223,7 @@ body {
     text-align: center;
 }
 .our-p {
-    padding: 120 0px;
+    padding: 120px 0;
 
 }
 .our-portfolio {
@@ -253,7 +258,7 @@ body {
 }
 .our-portfolio-li {
     list-style-type: none;
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .our-portfolio-div {
     padding: 32px 16px;
