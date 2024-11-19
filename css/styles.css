@@ -149,7 +149,7 @@ body {
     gap: 24px;
 }
 .abaut-li {
-    width: calc((100%-72px)/4)
+    width:calc((100%-72px)/4)
 }
 
 .abaut-us-h {
@@ -196,6 +196,9 @@ body {
 .our-team-div {
     padding: 32px 0;
 }
+.our-team-li img {
+    display: block;
+}
     
 .name-tag {
     font-weight: 500;
@@ -218,7 +221,7 @@ body {
     padding: 120px 0;
 
 }
-.our-portfolio {
+.our-portfolio-h {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -252,6 +255,9 @@ body {
     list-style-type: none;
     display: block;
     width:calc((100%-72px)/4);
+}
+.our-portfolio-li img {
+    display: block;
 }
 
 .our-portfolio-div {
